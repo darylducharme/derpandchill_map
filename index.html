@@ -60,11 +60,46 @@
             border-radius: 3px;
             box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
         }
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #333;
+	}
+
+	li {
+	    float: left;
+	    border-right: 1px solid #bbb;
+	}
+	li:last-child {
+	    border-right: none;
+	}
+
+	li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	/* Change the link color to #111 (black) on hover */
+	li a:hover {
+	    background-color: #111;
+	}
+      	.active {
+            background-color: #04AA6D;
+	}
     </style>
 
 </head>
 
 <body>
+    <ul class="menu">
+        <li><a class="active" href="#">Overworld</a></li>
+        <li><a href="/nether/index.html">Nether</a></li>
+    </ul>
     <div id="map"></div>
 
     <script type="text/javascript">
