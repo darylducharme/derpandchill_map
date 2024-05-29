@@ -6,8 +6,8 @@ var UnminedMapProperties = {
     imageFormat: "jpeg",
     minRegionX: -1,
     minRegionZ: -1,
-    maxRegionX: 0,
-    maxRegionZ: 0,
+    maxRegionX: 1,
+    maxRegionZ: 1,
     worldName: "Derp & Chill S2 - DC2: The Mighty Derps - Copy",
     background: "",
     markers: new Array()
