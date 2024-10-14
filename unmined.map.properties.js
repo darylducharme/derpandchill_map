@@ -5,7 +5,7 @@ var UnminedMapProperties = {
     defaultZoom: 0,
     imageFormat: "jpeg",
     minRegionX: -14,
-    minRegionZ: -10,
+    minRegionZ: -11,
     maxRegionX: 10,
     maxRegionZ: 16,
     worldName: "Derp & Chill S2 - DC2: The Mighty Derps - Copy",
