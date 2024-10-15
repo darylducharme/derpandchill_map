@@ -62,6 +62,10 @@
 	}
     </style>
 
+    <!-- uNmINeD JS and CSS -->
+    <script type="text/javascript" src="unmined.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
 
 </head>
 
@@ -81,13 +85,12 @@
             UnminedMapProperties.markers = UnminedMapProperties.markers.concat(UnminedCustomMarkers.markers);
         }
         
-        let unmined = new Unmined();
         if (UnminedPlayers && UnminedPlayers.length > 0) {
-            UnminedMapProperties.markers = UnminedMapProperties.markers.concat(unmined.createPlayerMarkers(UnminedPlayers));
             UnminedMapProperties.playerMarkers = Unmined.createPlayerMarkers(UnminedPlayers);
         }
 
-        unmined.map('map', UnminedMapProperties, UnminedRegions);
+        const mapElement = document.getElementById('map');
+        const unmined = new Unmined(mapElement, UnminedMapProperties, UnminedRegions);
 
 
     </script>
