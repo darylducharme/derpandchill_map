@@ -10,5 +10,9 @@ var UnminedMapProperties = {
     maxRegionZ: 2,
     worldName: "Derp & Chill S2 - DC2: The Mighty Derps - Copy",
     background: "",
-    markers: new Array()
+    markers: new Array(),
+    enableGrid: true,
+    showGrid: true,
+    centerX: 0,
+    centerZ: 0
 }
