@@ -6,7 +6,7 @@ var UnminedMapProperties = {
     imageFormat: "jpeg",
     minRegionX: -5,
     minRegionZ: -5,
-    maxRegionX: 2,
+    maxRegionX: 3,
     maxRegionZ: 1,
     worldName: "Derp & Chill S3: Chill Harder - Copy",
     background: "",
