@@ -8,7 +8,7 @@ var UnminedMapProperties = {
     minRegionZ: -5,
     maxRegionX: 3,
     maxRegionZ: 1,
-    worldName: "Derp & Chill S3: Chill Harder 2/13/2026 08:52:53AM - Copy",
+    worldName: "Derp & Chill S3: Chill Harder - Copy",
     background: "",
     markers: new Array(),
     enableGrid: true,
